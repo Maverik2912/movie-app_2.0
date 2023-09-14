@@ -1,0 +1,64 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.inputContainer{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+.input{
+    width: 100%;
+    padding: 7px 20px;
+    font-size: 18px;
+    border: 1px solid gray;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    font-size: 14px;
+}
+.searchList{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    z-index: 50;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.noMovies{
+    color: gray;
+    font-weight: 700;
+    list-style-type: none;
+    padding: 7px 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+}
+.dark{
+    background-color: #c4c4c4;
+}
+.light{
+    background-color: #e5e5e5;
+}
+.seeAll{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.seeAll.light{
+    background-color: #a9a9a9;
+}
+
+.seeAll.dark{
+    background: #626161;
+    color: rgba(255, 255, 0, 0.84);
+}

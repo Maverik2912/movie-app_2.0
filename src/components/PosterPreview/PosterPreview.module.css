@@ -1,0 +1,12 @@
+.poster.active{
+    transform: scale(1.2);
+    z-index: 20;
+}
+.vote{
+    bottom: 20px;
+    text-align: center;
+    z-index: 30;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}

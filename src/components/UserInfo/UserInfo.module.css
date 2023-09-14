@@ -1,0 +1,13 @@
+.flexContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.flexContainer img{
+    border: 2px solid rgb(51, 63, 113);
+    width: 40px;
+    border-radius: 50%;
+}
+.userName{
+    color: #e8e8e8;
+}

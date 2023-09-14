@@ -1,0 +1,11 @@
+.sidebar{
+    z-index: 100;
+    padding: 30px 15px;
+}
+.sidebar.light{
+    background: linear-gradient(45deg, #8989ba 0%, #4343bd 100%);
+}
+.sidebar.dark{
+    background: linear-gradient(45deg, #4d4d67 0%, #292977 100%);
+
+}

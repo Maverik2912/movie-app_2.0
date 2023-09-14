@@ -1,0 +1,52 @@
+.navList{
+    margin: 30px -15px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-block: 5px;
+    padding: 0 40px;
+}
+.title.light{
+    color: black;
+}
+.title.dark{
+    color: rgba(255, 255, 0, 0.85);
+}
+.item{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 40px;
+    color: #e8e8e8;
+    cursor: pointer;
+}
+.link{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.active{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 40px;
+}
+#dark, #dark:active{
+    color: #cbc9c9;
+}
+#light, #light.active{
+    color: #e8e8e8;
+}
+#light.active, #light.link:hover, .light.item:hover{
+    background-color: rgba(255, 215, 0, 0.34);
+}
+#dark.active, #dark.link:hover, .dark.item:hover{
+    background-color: rgba(159, 134, 2, 0.34);
+}
+

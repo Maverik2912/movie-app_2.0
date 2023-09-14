@@ -1,0 +1,48 @@
+.movieItem{
+    font-weight: 700;
+    list-style-type: none;
+    padding: 7px 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+    cursor: pointer;
+}
+.movieItem.light{
+    color: gray;
+}
+.movieItem.dark{
+    color: #424242;
+}
+.movieItem span{
+    margin-left: 3px;
+    font-size: 14px;
+    padding: 0 3px;
+    font-weight: 700;
+}
+.movieItem span.light{
+    color: white;
+}
+.movieItem span.dark{
+    color: #e3e2e2;
+}
+.movieItem:hover{
+    background-color: #d3d3d3;
+}
+.light.green{
+    background-color: #009300;
+}
+.light.gray{
+    background-color: gray;
+}
+.light.red{
+    background-color: red;
+}
+.dark.green{
+    background-color: #016c01;
+}
+.dark.gray{
+    background-color: #575757;
+}
+.dark.red{
+    background-color: #b60202;
+}
+
+

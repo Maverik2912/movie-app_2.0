@@ -1,0 +1,36 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: 100%;
+    background: url("../../assets/images/Avengers.jpg") fixed;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.container{
+    overflow: hidden;
+    width: 77vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+.dark{
+    background-color: #000036;
+    color: #c7c7c7;
+}
+
+.light{
+    background-color: #d2d2d2;
+}
+.dark .hide{
+    height: 100%;
+    background-color: #000036;
+}
+
+.light .hide{
+    height: 100%;
+    background-color: #d2d2d2;
+}

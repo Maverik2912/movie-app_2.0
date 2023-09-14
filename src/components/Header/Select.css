@@ -1,0 +1,21 @@
+#demo-select-small-label{
+    font-weight: 700;
+}
+.custom-form-control.dark {
+    background-color: #c5c4c4;
+    color: #333;
+    border-radius: 5px;
+}
+.custom-form-control.dark .MuiInputLabel-shrink{
+    color: white;
+    top: -7px;
+}
+.custom-form-control.light .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #5858ba;
+}
+.custom-form-control.dark .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+.custom-form-control.light .MuiInputLabel-shrink.Mui-focused {
+    color: #5858ba;
+}

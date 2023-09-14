@@ -1,0 +1,43 @@
+.mainContainer{
+    margin-left: 30px;
+}
+.title{
+    margin: 40px 0 30px;
+    font-size: 30px;
+}
+.about{
+    margin: 30px 0;
+}
+.subtitle{
+    font-size: 24px;
+    margin: 7px 0;
+}
+.dscr{
+    line-height: 25px;
+    width: 50vw;
+}
+.similar{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.similar h2{
+    font-size: 24px;
+    margin-left: 30px;
+}
+.similar img {
+    flex: 0 0 10%;
+}
+.ratingContainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.dark{
+    color: rgba(255, 255, 0, 0.84);
+}
+.rating{
+    font-size: 20px;
+}
+.vote_rating{
+    margin-top: 5px;
+}

@@ -1,0 +1,43 @@
+.flexContainer{
+    display: flex;
+    gap: 50px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.gridContainer h3{
+    font-size: 16px;
+}
+.gridContainer p, .gridContainer span {
+    font-size: 14px;
+}
+.poster{
+    width: 185px;
+}
+
+.posterContainer{
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genre{
+    margin-right: 5px;
+}
+.genre.dark{
+    color: rgba(255, 255, 0, 0.84);
+}
+.genre.dark:hover, .genre.light:hover{
+    color: orange;
+}
+.genre.light{
+    color: rgb(6, 74, 117);
+}
+.dark{
+    color: rgba(255, 255, 0, 0.84);
+}

@@ -1,0 +1,19 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.movieTitle{
+    font-size: 18px;
+}
+.movieTitle.light{
+    color: #525252;
+}
+.movieTitle.dark{
+    color: #c7c7c7;
+}
+.notFound{
+    text-align: center;
+    font-size: 25px;
+    margin: 100px 0;
+}

@@ -31,14 +31,6 @@ const GenreSelect = () => {
         dispatch(headerActions.setSelectTime(''));
     };
 
-    const openHandler = () => {
-        document.body.classList.add('selectOpen');
-    };
-
-    const closeHandler = () => {
-        document.body.classList.remove('selectOpen');
-    }
-
     return (
         <FormControl
             sx={{ m: 1, minWidth: 120 }}
@@ -54,8 +46,6 @@ const GenreSelect = () => {
                 value={selectedValue.genre || ''}
                 onChange={changeHandler}
                 label="All genres"
-                onOpen={openHandler}
-                onClose={closeHandler}
             >
                 {genres.map((genre) => (
                     <MenuItem key={genre.name} value={genre.id.toString()}>

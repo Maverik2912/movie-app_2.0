@@ -5,7 +5,7 @@ import {useAppDispatch, useAppSelector} from "../../../hooks";
 import styles from './SearchInput.module.css';
 import {links} from "../../../constants";
 import {moviesActions} from "../../../redux";
-import {FoundedMovie} from "../FoundedMovie";
+import {FoundMovie} from "../FoundMovie";
 import {IMovie} from "../../../interfaces";
 
 const SearchInput = () => {
@@ -46,14 +46,14 @@ const SearchInput = () => {
                     ref={inputRef}
                     className={`${styles.input} ${isDark ? styles.dark : styles.light}`}
                     type="text"
-                    placeholder='Search your interesting...'
+                    placeholder='Search movies...'
                     value={query}
                     onChange={e => setQuery(e.target.value)}
                 />
                 {query &&
                     <ul ref={searchListRef} className={`${styles.searchList} ${isDark ? styles.dark : styles.light}`}>
                         {moviesByQuery.length ? moviesToShow.map(
-                                movie => <FoundedMovie key={movie.id} movie={movie}/>)
+                                movie => <FoundMovie key={movie.id} movie={movie}/>)
                             : <li className={styles.noMovies}>No movies were found for your search</li>
                         }
                         {moviesByQuery.length > 5 &&

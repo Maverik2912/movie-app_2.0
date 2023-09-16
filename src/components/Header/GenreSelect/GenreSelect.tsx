@@ -6,7 +6,6 @@ import {useAppDispatch, useAppSelector} from "../../../hooks";
 import {headerActions} from "../../../redux";
 import {links} from "../../../constants";
 import '../Select.css';
-import {onOpenSelectHandler} from "../../../utils";
 
 const GenreSelect = () => {
     const {isDark} = useAppSelector(store => store.theme);

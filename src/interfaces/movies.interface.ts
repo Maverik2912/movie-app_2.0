@@ -1,5 +1,6 @@
 import {IGenre} from "./genres.interface";
 
+
 export interface IMovies {
     page: number;
     results: IMovie[];

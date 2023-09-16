@@ -3,13 +3,13 @@ import {FC, PropsWithChildren} from 'react';
 
 import {useAppDispatch, useAppSelector} from "../../../hooks";
 import {IMovie} from "../../../interfaces";
-import styles from './FoundedMovie.module.css';
+import styles from './FoundMovie.module.css';
 import {headerActions} from "../../../redux";
 interface IFoundedMovieProps extends PropsWithChildren {
     movie: IMovie
 }
 
-const FoundedMovie: FC<IFoundedMovieProps> = ({movie}) => {
+const FoundMovie: FC<IFoundedMovieProps> = ({movie}) => {
     const {isDark} = useAppSelector(store => store.theme);
     const {selectedValue} = useAppSelector(store => store.header);
 
@@ -31,4 +31,4 @@ const FoundedMovie: FC<IFoundedMovieProps> = ({movie}) => {
     );
 };
 
-export {FoundedMovie};
+export {FoundMovie};
